@@ -214,12 +214,26 @@ const myApp=[
        
        // Apagar até aqui
 // custom js
- confetti.start();
- 
-
-
+  src=<"./confetti.min.js">         
+  const startit = () => {
+   setTimeout(function() {
+    confetti.start();
+   },1000);
+  };
+ // Stops
+   const stopit = () => {
+       setTimeout(function(){
+         confetti.stop();
+       }, 5000);
+     };
+     //playing start
+     startit();
+     //stoping it
+     stopit();
+              
+       
            
-              }
+       }
 
 
       //28-06-2021 - 2 Tentativa - SUMIU TUDO
