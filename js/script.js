@@ -228,8 +228,7 @@ const myApp=[
               
        
        // Apagar até aqui
-// custom js
-  src=<"./confetti.min.js">         
+// custom js        
   const startit = () => {
    setTimeout(function() {
     confetti.start();
